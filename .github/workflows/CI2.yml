@@ -22,4 +22,4 @@ jobs:
 
     - name: Run tests
       run: |
-        python3 testpy.py
+        python3 -m pytest -s unit_test_dir
